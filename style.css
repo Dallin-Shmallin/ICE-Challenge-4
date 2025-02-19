@@ -1,0 +1,25 @@
+content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#description{
+    justify-content: center;
+}
+#cherries{
+    justify-content: center;
+}
+#white{
+    background-color: black;
+    grid-column: 1/2;
+    width: 100px;
+    height: 1000px;
+}
+#grey{
+    background-color: grey; 
+    width: 100%;
+    height: 1000px;
+    grid-column: 2/3;
+}
+#cherry{
+    justify-content: center;
+}
